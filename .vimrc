@@ -4,6 +4,7 @@ filetype off
 " Syntax Highlighting
 syntax enable
 let g:solarized_termcolors=256
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
 " Tampilkan info
 set ruler
