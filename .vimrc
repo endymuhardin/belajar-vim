@@ -24,6 +24,9 @@ set nolist
 set formatoptions-=t
 set colorcolumn=+1
 
+" Autoload file yang diedit di editor lain
+set autoread
+
 " Autosave
 set updatetime=10000
 autocmd CursorHold,CursorHoldI,InsertLeave * silent! wall
