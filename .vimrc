@@ -42,3 +42,6 @@ Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'ctrlpvim/ctrlp.vim'
 Bundle 'rstacruz/sparkup'
+
+" Sparkup
+filetype plugin on
