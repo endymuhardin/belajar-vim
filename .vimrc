@@ -8,7 +8,7 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
 " Tampilkan info
 set ruler
-set relativenumber
+set number
 
 " Indentasi
 set expandtab
