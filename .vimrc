@@ -1,5 +1,5 @@
 set nocompatible
-filetype off
+filetype plugin indent on
 
 " Syntax Highlighting
 syntax enable
@@ -16,12 +16,6 @@ set shiftwidth=4
 set softtabstop=4
 set autoindent
 
-" Wrap
-set tw=79
-set wrap 
-set linebreak 
-set nolist
-set formatoptions-=t
 set colorcolumn=+1
 
 " Autoload file yang diedit di editor lain
@@ -35,6 +29,9 @@ autocmd CursorHold,CursorHoldI,InsertLeave * silent! wall
 set splitright
 set splitbelow
 
+" Eclim Close Preview Pane
+let g:SuperTabClosePreviewOnPopupClose = 1
+
 " Plugins
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
@@ -43,5 +40,3 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'ctrlpvim/ctrlp.vim'
 Bundle 'rstacruz/sparkup'
 
-" Sparkup
-filetype plugin on
